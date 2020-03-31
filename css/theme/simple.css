@@ -84,6 +84,11 @@ body {
   width: 400px;
 }
 
+.reveal strong {
+  font-weight: bold;
+  font-family: "Open Sans", Impact, sans-serif;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -182,10 +187,6 @@ body {
     z-index: 10; 
     font-size: 35%;
     text-align:left;
-    background-image: url(../images/pink-logo.png);
-    background-repeat: no-repeat;
-    background-size: auto 74%;
-    background-position: 7px 0;
     font-family:;
 }
 .reveal footer .copyright{
