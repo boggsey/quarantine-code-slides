@@ -34,14 +34,14 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+  background: #233238;
+  background-color: #233238; }
 
 .reveal {
   font-family: "Gotham-Round", sans-serif;
   font-size: 36px;
   font-weight: 300;
-  color: #53555C; }
+  color: #fff; }
 
 ::selection {
   color: white;
@@ -64,22 +64,31 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #f05b62;
-  font-family: "Gotham-Round", Impact, sans-serif;
-  font-weight: 300;
+  color: #9bd675;
+  font-family: "Open Sans", Impact, sans-serif;
+  font-weight: 600;
   line-height: 0.9em;
   letter-spacing: 0.02em;
-  text-transform: none;
-  text-shadow: none; }
+  text-transform: uppercase;
+  text-shadow: none;
+}
 
 .reveal section[data-background="#f05b62"] h2, .reveal section[data-background="#f05b62"] h1 {color: #fafafa;}
 .reveal h1 {margin: 0 0 30px;}
+
+.reveal pre code {
+  background: black;
+}
+
+.quarantine-logo {
+  width: 400px;
+}
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color:  #f05b62;
+  color:  #9bd675;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -88,7 +97,8 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #9bd675;
+  text-decoration: underline;
   text-shadow: none;
   border: none; }
 
@@ -101,7 +111,7 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
+
   border: 6px solid #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -113,7 +123,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color:  #f05b62;
+  border-color:  #9bd675;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -121,20 +131,20 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color:  #f05b62; }
+  border-right-color:  #9bd675; }
 
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color:  #f05b62; }
+  border-left-color:  #9bd675; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color:  #f05b62; }
+  border-bottom-color:  #9bd675; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color:  #f05b62; }
+  border-top-color:  #9bd675; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #53555C; }
@@ -155,7 +165,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background:  #f05b62;
+  background:  #9bd675;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
