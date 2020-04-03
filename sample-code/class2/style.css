@@ -5,7 +5,10 @@
       }
       h1 {
         font-family: "Comic Sans", Arial, sans-serif;
-        color: purple;
+        color: red;
         font-size: 100px;
         background-color: green;
+      }
+      a {
+        color: green;
       }
