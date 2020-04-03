@@ -1,13 +1,21 @@
-
       body {
         margin: 0;
         background-color: yellow;
+      }
+      #header {
+        color: brown;
+      }
+      .warning {
+        background-color: purple;
       }
       h1 {
         font-family: "Comic Sans", Arial, sans-serif;
         color: red;
         font-size: 100px;
         background-color: green;
+      }
+      p a {
+        color: red;
       }
       a {
         color: green;
