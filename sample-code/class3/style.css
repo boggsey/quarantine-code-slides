@@ -7,6 +7,15 @@ nav {
   background-color: white;
 }
 
+main {
+  background-color: gray;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
 .align-right {
   text-align: right;
 }
