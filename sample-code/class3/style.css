@@ -1,22 +1,12 @@
-body {
-  margin: 0;
-  background-color: yellow;
+header {
+  background-color: black;
+  padding: 10px;
 }
-#header {
-  color: brown;
+
+nav {
+  background-color: white;
 }
-.warning {
-  background-color: purple;
-}
-h1 {
-  font-family: "Comic Sans", Arial, sans-serif;
-  color: red;
-  font-size: 100px;
-  background-color: green;
-}
-p a {
-  color: red;
-}
-a {
-  color: green;
+
+.align-right {
+  text-align: right;
 }
