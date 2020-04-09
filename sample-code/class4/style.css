@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: 50px;
+}
+
+nav {
+  background-color: black;
+}
+
+nav a {
+  background-color: black;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+main {
+  background-color: gray;
+}
+
+#main-footer {
+	background-color: black;
+  color: white;
+}
+
+#main-footer p span {
+  color: red; 
+}
+
+.align-right {
+  text-align: right;
+}
