@@ -46,6 +46,12 @@ main {
 
 .wrapper {
   background-color: red;
-  width: 400px;
+  width: 60%;
   margin: 0 auto;
+}
+
+.name {
+  position: relative;
+  left: 200px;
+  top: 300px;
 }
