@@ -52,6 +52,7 @@ main {
 
 .name {
   position: relative;
+  color: white;
 }
 
 .image-wrapper {
