@@ -52,6 +52,20 @@ main {
 
 .name {
   position: relative;
-  left: 200px;
-  top: 300px;
+}
+
+.nick-wrapper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.nick {
+  position: absolute;
+  background-color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: black;
+  bottom: 5px;
+  margin: 0;
 }
