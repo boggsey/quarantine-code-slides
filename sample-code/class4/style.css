@@ -9,6 +9,8 @@ header {
 
 nav {
   background-color: black;
+  width: 45%;
+  float: right;
 }
 
 nav a {
@@ -54,6 +56,9 @@ main {
   position: relative;
   color: white;
   z-index: 100;
+  width: 45%;
+  float: left;
+  margin: 0;
 }
 
 .image-wrapper {
