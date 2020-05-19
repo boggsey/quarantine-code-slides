@@ -1,0 +1,38 @@
+body {
+  background-color: indigo;
+  color: white;
+}
+
+h1 {
+  color: red;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p em {
+  color: yellow;
+}
+
+#header {
+  background-color: indigo;
+}
+
+.status-update {
+  color: yellow;
+}
+
+footer p {
+  color: green
+}
+
+.footer-text {
+  color: yellow;
+}
+
+footer {
+  color: red;
+}
