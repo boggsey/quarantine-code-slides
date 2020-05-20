@@ -49,3 +49,11 @@ a {
 a:hover {
   color: chartreuse;
 }
+
+nav a {
+  background-color: white;
+  color: indigo;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
