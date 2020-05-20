@@ -1,6 +1,6 @@
 body {
   background-color: indigo;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -42,8 +42,10 @@ footer {
 }
 
 .wrapper {
-  background-color: red;
+  background-color: white;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
