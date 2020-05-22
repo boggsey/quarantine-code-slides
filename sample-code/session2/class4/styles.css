@@ -25,6 +25,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: 0 2px 5px 2px rgba(0,0,0,.5);
 }
 
 .status-update {
@@ -109,4 +110,22 @@ nav a:hover {
   margin: 0;
   padding: 5px;
   font-size: 12px;
-} 
+}
+
+.work {
+  background: indigo;
+  width: 25.33%;
+  float: left;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.work-container {
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+  .work {
+    width: 100%;
+  }
+}
