@@ -4,11 +4,12 @@ body {
   margin: 0;
 }
 
-h1 {
+.name {
   color: white;
   font-size: 26px;
   font-family: Arial, Helvetica, sans-serif;
   width: 45%;
+  float: left;
 }
 
 p {
@@ -21,6 +22,9 @@ p em {
 
 header {
   background-color: indigo;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .status-update {
@@ -66,6 +70,7 @@ a:hover {
 nav {
   width: 45%;
   text-align: right;
+  float: right;
 }
 
 nav a {
@@ -78,11 +83,30 @@ nav a {
   padding: 10px;
   margin-right: 10px;
   border: 2px solid white;
+  display: inline-block;
 }
 
 nav a:hover {
   background-color: transparent;
   color: white;
-  position: relative;
-  bottom: 10px;
 }
+
+.kitten-img {
+  position: relative;
+}
+
+.img-container {
+  background: red;
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.img-caption {
+  background: white;
+  position: absolute;
+  bottom: 10px;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+} 
